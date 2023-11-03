@@ -1,12 +1,12 @@
-# Project Name: 
+# Project Name
 Python Pomodoro Timer
 
-# Description:
+# Description
 
 This is a Python-based Pomodoro timer application created to enhance productivity and time management. 
 The Pomodoro Technique is a time management method that breaks work into intervals (typically 25 minutes) separated by short breaks, allowing you to focus and stay productive.
 
-# Features:
+# Features
 
 - Supports Pomodoro sessions, short breaks, and long breaks;
 - Automatic cycle management with short and long breaks;
@@ -16,7 +16,7 @@ The Pomodoro Technique is a time management method that breaks work into interva
 - Window transparency and always-on-top feature for convenience;
 - Developed in Python, providing an easy-to-understand and extensible codebase.
 
-# How to Use:
+# How to Use
 
 1) Click "Start" to begin a Pomodoro session.
 2) The timer will automatically switch between Pomodoro and break phases.
