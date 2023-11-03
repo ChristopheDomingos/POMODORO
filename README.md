@@ -22,5 +22,4 @@ The Pomodoro Technique is a time management method that breaks work into interva
 2) The timer will automatically switch between Pomodoro and break phases.
 3) Customize the timer settings or adjust the notification sound as needed.
 
-# Feel free to fork and modify this Python Pomodoro Timer to suit your own productivity needs. 
-# Enjoy your focused and productive work sessions!
+# Feel free to fork and modify this Python Pomodoro Timer to suit your own productivity needs. Enjoy your focused and productive work sessions!
