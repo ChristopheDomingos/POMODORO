@@ -16,6 +16,13 @@ The Pomodoro Technique is a time management method that breaks work into interva
 - Window transparency and always-on-top feature for convenience;
 - Developed in Python, providing an easy-to-understand and extensible codebase.
 
+# Requirements
+
+To run this Python Pomodoro Timer, you'll need the following dependencies:
+
+- Python (3.x recommended);
+- Tkinter (usually included with Python, but if not, it can be installed separately).
+
 # How to Use
 
 1) Click "Start" to begin a Pomodoro session.
