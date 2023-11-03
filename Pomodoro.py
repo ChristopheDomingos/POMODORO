@@ -27,10 +27,6 @@ class PomodoroTimer:
         self.start_button = tk.Button(root, text="Start", command=self.toggle_timer)
         self.start_button.pack(pady=5)
 
-        # Create a label to display text during Pomodoro and breaks
-        self.deus_label = tk.Label(root, text="DEUS", font=("Helvetica", 14))
-        self.deus_label.pack(pady=5)
-
         # Store the time when the "Stop" button is pressed
         self.stopped_time = 0
 
@@ -75,15 +71,6 @@ class PomodoroTimer:
             if not self.is_break:
                 self.pomodoro_number += 1
                 self.completed_pomodoros += 1
-                # Set text for Pomodoro
-                self.deus_label.config(text="DEUS")
-            else:
-                # Set text for breaks
-                if self.completed_pomodoros % POMODOROS_BEFORE_LONG_BREAK == 0:
-                    self.deus_label.config(text="Não nos deixais cair em tentação\n- Assim como nós perdoamos a quem nos tem ofendido")
-                else:
-                    self.deus_label.config(text="Não nos deixais cair in tentação")
-
             self.is_break = not self.is_break
 
             if self.completed_pomodoros == POMODOROS_BEFORE_LONG_BREAK:
